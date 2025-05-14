@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS INVENTARIO(
+	itemid int(11) NOT NULL AUTO_INCREMENT,
+	itemcodigo VARCHAR(20) DEFAULT NULL,
+    itemdescricao VARCHAR(50) DEFAULT NULL,
+    itempreco DOUBLE DEFAULT 0,
+    PRIMARY KEY (itemid)
+) 
+INSERT INTO INVENTARIO (itemid, itemcodigo, itemdescricao, itempreco)
+VALUES (1, 'MURA', 'ACIDO MURIÁTICO', 1250),
+(2, 'DOG', 'RACAO CÃO ESPERTO', 350),
+(3, 'DORA', 'RADAR DOPPLER', 2000),
+(4, 
+
+SELECT * FROM INVENTARIO
